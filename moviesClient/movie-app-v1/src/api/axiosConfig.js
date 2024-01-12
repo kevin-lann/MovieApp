@@ -1,8 +1,9 @@
 import axios from 'axios'
 
 export default axios.create({
-    baseURL: 'https://5b3b-142-127-162-109.ngrok-free.app',
-    headers: {'ngrok-skip-browser-warning': "true"}
+    baseURL: "https://flixzone.onrender.com/"
+    // baseURL: 'https://5b3b-142-127-162-109.ngrok-free.app',
+    // headers: {'ngrok-skip-browser-warning': "true"}
 });
 
 //  https://c620-142-127-162-109.ngrok-free.app 
