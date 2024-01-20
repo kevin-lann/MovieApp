@@ -5,9 +5,9 @@ import {useState, useEffect} from 'react'
 
 function App() {
 
-  const [movies, setMovies] = useState();
+  const [movies, setMovies] = useState(); // useState is a hook that gets the movies list when change is detected, setMovies is a function given to us so that we can use to set to database
 
-  const getMovies = async () => {
+  const getMovies = async () => { // asynch-await ensures ui Is not blocked when performing long running IO operations.
     try {
 
       const response = await api.get("/api/v1/movies");
@@ -20,7 +20,7 @@ function App() {
     }
   }
 
-  useEffect(() => {
+  useEffect(() => { // this hook makes sure the getMovies fn called when app first loads
     getMovies();
   }, []);
 
