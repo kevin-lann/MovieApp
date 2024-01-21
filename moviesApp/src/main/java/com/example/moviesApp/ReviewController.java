@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://flixzone3.onrender.com/")
+@CrossOrigin(origins = "https://flixzone-net.onrender.com/")
 @RequestMapping("/api/v1/reviews")
 public class ReviewController {
     
