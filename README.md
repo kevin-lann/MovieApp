@@ -1,4 +1,4 @@
-..,.# Movie Fullstack Application
+,..,.# Movie Fullstack Application
 
 Backend:
 - REST API with Springboot
