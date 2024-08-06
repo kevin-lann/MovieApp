@@ -1,7 +1,7 @@
 # Movie Fullstack Application
 
 Backend:
-- RESTAPI with Springboot
+- REST API with Springboot
 - MongoDB Atlas
 
 Frontend: Plan to finish in the future
