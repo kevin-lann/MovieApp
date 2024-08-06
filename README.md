@@ -1,6 +1,6 @@
 # Movie Fullstack Application
 
-Backend:.
+Backend:
 - REST API with Springboot
 - MongoDB Atlas
 
